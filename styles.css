@@ -1,0 +1,91 @@
+body {
+    color: white;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #60acd5;
+    padding: 20px;
+    font-size: 32px;
+    color: #60acd5;
+}
+
+.chamada {
+    background: #60acd5;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #60acd5;
+}
+
+.categoria h2 {
+    color: #60acd5;
+}
+
+
+body::-webkit-scrollbar {
+    width: 13px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);       
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #60acd5;   
+    border-radius: 20px;       
+    border: 3px solid rgb(255, 255, 255);  
+  }
+
+  /*filmes e series - barra de rolagem*/
+
+  .categoria-videos::-webkit-scrollbar {
+    height: 13px;               
+  }
+  
+  .categoria-videos::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);       
+  }
+  
+  .categoria-videos::-webkit-scrollbar-thumb {
+    background-color: #60acd5;   
+    border-radius: 20px;       
+    border: 3px solid rgb(255, 255, 255);  
+  }
